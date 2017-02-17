@@ -1,7 +1,9 @@
-package com.epam.mentoring.tetris.entity;
+package com.epam.mentoring.tetris.shape;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import com.epam.mentoring.tetris.bean.Point;
 
 public class OShape implements Shape {
 

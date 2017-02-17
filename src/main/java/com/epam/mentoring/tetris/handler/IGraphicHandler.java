@@ -1,6 +1,6 @@
 package com.epam.mentoring.tetris.handler;
 
-import com.epam.mentoring.tetris.main.Board;
+import com.epam.mentoring.tetris.board.Board;
 
 public interface IGraphicHandler {
 	

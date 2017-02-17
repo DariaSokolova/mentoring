@@ -1,4 +1,4 @@
-package com.epam.mentoring.tetris.main;
+package com.epam.mentoring.tetris.board;
 
 import com.epam.mentoring.tetris.constant.BoardContants;
 

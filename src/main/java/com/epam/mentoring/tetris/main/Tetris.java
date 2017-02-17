@@ -1,5 +1,7 @@
 package com.epam.mentoring.tetris.main;
 
+import com.epam.mentoring.tetris.board.Board;
+import com.epam.mentoring.tetris.board.BoardLogic;
 import com.epam.mentoring.tetris.handler.IGraphicHandler;
 import com.epam.mentoring.tetris.handler.IInputHandler;
 

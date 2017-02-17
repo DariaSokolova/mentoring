@@ -1,14 +1,14 @@
-package com.epam.mentoring.tetris.util;
+package com.epam.mentoring.tetris.shape.util;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-import com.epam.mentoring.tetris.entity.IShape;
-import com.epam.mentoring.tetris.entity.JShape;
-import com.epam.mentoring.tetris.entity.LShape;
-import com.epam.mentoring.tetris.entity.OShape;
-import com.epam.mentoring.tetris.entity.Shape;
+import com.epam.mentoring.tetris.shape.IShape;
+import com.epam.mentoring.tetris.shape.JShape;
+import com.epam.mentoring.tetris.shape.LShape;
+import com.epam.mentoring.tetris.shape.OShape;
+import com.epam.mentoring.tetris.shape.Shape;
 
 public class ShapeGenerator {
 

@@ -1,10 +1,10 @@
-package com.epam.mentoring.tetris.main;
+package com.epam.mentoring.tetris.board;
 
 import java.util.Random;
 
+import com.epam.mentoring.tetris.bean.Point;
 import com.epam.mentoring.tetris.constant.BoardContants;
-import com.epam.mentoring.tetris.entity.Figure;
-import com.epam.mentoring.tetris.entity.Point;
+import com.epam.mentoring.tetris.figure.Figure;
 
 public class Board {
 

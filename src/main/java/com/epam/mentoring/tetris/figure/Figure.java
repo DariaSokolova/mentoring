@@ -1,9 +1,12 @@
-package com.epam.mentoring.tetris.entity;
+package com.epam.mentoring.tetris.figure;
 
 import java.util.List;
 
+import com.epam.mentoring.tetris.bean.Point;
+import com.epam.mentoring.tetris.constant.FigureConstants;
 import com.epam.mentoring.tetris.constant.RotationConstants;
-import com.epam.mentoring.tetris.util.ShapeGenerator;
+import com.epam.mentoring.tetris.shape.Shape;
+import com.epam.mentoring.tetris.shape.util.ShapeGenerator;
 
 public class Figure {
 
@@ -22,7 +25,7 @@ public class Figure {
 	}
 
 	public void move(int movingDirection) {
-		location.setX(location.getX() + movingDirection);
+		location.setX(location.getX() + FigureConstants.X_OFFSET * movingDirection);
 	}
 
 	public void rotate() {
@@ -30,6 +33,14 @@ public class Figure {
 	}
 
 	public void letDown() {
-		location.setY(location.getY() - 1);
+		location.setY(location.getY() - FigureConstants.Y_OFFSET);
 	}
+
+	public Point getLocation() {
+		return location;
+	}
+
+	public int getRota() {
+		return rota;
+	}	
 }
